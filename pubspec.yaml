@@ -50,15 +50,15 @@ dev_dependencies:
 
 flutter_icons:
   android: true
-  image_path: "assets/port_logo.png"
+  image_path: "asset/port_logo.png"
   web: 
     generate: true
-    image_path: "assets/port_logo.png"
+    image_path: "asset/port_logo.png"
     background_color: Color(0xFFCCFF90)
     theme_color: Color(0xFFCCFF90)
   windows:
     generate: true
-    image_path: "assets/port_logo.png"
+    image_path: "asset/port_logo.png"
     icon_size: 80 
 
   # The "flutter_lints" package below contains a set of recommended lints to

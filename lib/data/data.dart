@@ -65,5 +65,10 @@ List<Project> projectList = [
       name: "GraphQl Flutter",
       description: "Flutter app built with graph Ql 🕹️",
       link: "https://github.com/waynetipsy/GraphQl_Futter", 
-      playstore: 'https://github.com/waynetipsy/GraphQl_Futter')
+      playstore: 'https://github.com/waynetipsy/GraphQl_Futter'),
+  Project(
+      name: "My Portfolio",
+      description: "Portfolio built with flutter web 📄",
+      link: "https://github.com/waynetipsy/Flutter-Portfolio", 
+      playstore: '')
 ];

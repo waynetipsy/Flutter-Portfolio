@@ -154,7 +154,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 25,
                 ),
                 ElevatedButton(
-                  
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.black,
+                    ),
                     onPressed: () async {
                       //Call to launch email
                       _launchUrl();
@@ -164,20 +166,21 @@ class _HomeScreenState extends State<HomeScreen> {
                         const Icon(
                           Icons.add,
                           size: 16,
-                          color: Colors.black,
+                          color: Colors.white,
                         ),
                        const  SizedBox(
                           width: 5,
                         ),
                       _isLoading ? 
                       const CircularProgressIndicator(
+                        
                         strokeWidth: 3,
-                      color: Colors.black,
+                      color: Colors.blue,
                       ) 
                       : const Text(
                           "Email",
                           style: TextStyle(fontWeight: FontWeight.bold,
-                          color: Colors.black
+                          color: Colors.white
                           )
                         )
                       ],
@@ -655,7 +658,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
       ),
-      backgroundColor: Colors.greenAccent
+      backgroundColor: Colors.white
     );
   }
 }
